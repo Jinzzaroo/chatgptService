@@ -8,7 +8,6 @@ import sys
 import openai
 import mysql.connector
 from datetime import date
-
 running = True
 
 mydb = mysql.connector.connect(
